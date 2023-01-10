@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Trail | PixiJS Lights Examples</title>
+    <script src="https://pixijs.download/dev/pixi.min.js"></script>
+    <script src="../dist/pixi-ui.js"></script>
+</head>
+<body>
+    <h1>Trail</h1>
+    <script>
+        const app = new PIXI.Application({ backgroundColor: 0x1099bb });
+        document.body.appendChild(app.view);
+
+        const color = 0xff0000
+        const width = 50;
+        const height = 50;
+        const radius = 10;
+
+        // Component usage !!!
+        const view = new PIXI.Button({
+            view: new PIXI.Graphics()
+                .beginFill(color)
+                .drawRoundedRect(0, 0, width, height, radius),
+            padding: 10,
+        });
+
+        view.onPress.connect(onPress);
+        app.stage.addChild(view)
+    </script>
+  </html>
