@@ -3,7 +3,7 @@ import { Container } from '@pixi/display';
 import { Text } from '@pixi/text';
 import { argTypes, getDefaultArgs } from '../utils/argTypes';
 import { ScrollBox } from '../../ScrollBox';
-import { FancyButton } from '../../FancyButton';
+import { FancyButton } from '../../FancyButton/FancyButton';
 import { defaultTextStyle } from '../../utils/helpers/styles';
 import { action } from '@storybook/addon-actions';
 import { centerElement } from '../../utils/helpers/resize';

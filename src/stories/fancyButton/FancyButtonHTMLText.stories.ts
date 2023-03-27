@@ -1,4 +1,4 @@
-import { FancyButton } from '../../FancyButton';
+import { FancyButton } from '../../FancyButton/FancyButton';
 import { action } from '@storybook/addon-actions';
 import { argTypes, getDefaultArgs } from '../utils/argTypes';
 import { preload } from '../utils/loader';

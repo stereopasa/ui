@@ -2,7 +2,7 @@ import { Container } from '@pixi/display';
 import { Graphics } from '@pixi/graphics';
 import { Text, TextStyle } from '@pixi/text';
 import { Signal } from 'typed-signals';
-import { FancyButton } from './FancyButton';
+import { FancyButton } from './FancyButton/FancyButton';
 import { ScrollBox, ScrollBoxOptions } from './ScrollBox';
 import { getView } from './utils/helpers/view';
 

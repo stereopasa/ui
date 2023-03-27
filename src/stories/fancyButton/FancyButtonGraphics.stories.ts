@@ -1,6 +1,6 @@
 import { Graphics } from '@pixi/graphics';
 import { Text } from '@pixi/text';
-import { FancyButton } from '../../FancyButton';
+import { FancyButton } from '../../FancyButton/FancyButton';
 import { action } from '@storybook/addon-actions';
 import { argTypes, getDefaultArgs } from '../utils/argTypes';
 import { defaultTextStyle } from '../../utils/helpers/styles';
